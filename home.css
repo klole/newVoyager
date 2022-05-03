@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Source+Sans+Pro&display=swap');
+
+
+body {
+    background-color: coral;
+    background-image: url('./back_image.png');
+    box-sizing: border-box;
+}
+
+h1 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue';
+    padding: 100px;
+    width: 60%;
+    max-width: 200px;
+}
+
+.rectangle {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+
+}

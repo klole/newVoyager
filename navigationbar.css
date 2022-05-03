@@ -1,0 +1,66 @@
+/* 
+#nav_bar = navigation bar as a whole
+.logo = logo in navigation bar
+.website_ul = website directory
+.social_ul = social media directory
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Source+Sans+Pro&display=swap');
+
+#nav_bar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #254441ff;
+}
+
+.logo {
+    height: 125px;
+    width: 200px;
+    padding: 30px;
+    padding-left: 75px;
+    float: left;
+}
+
+.twitter {
+    height: 30px;
+    width: 30px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.instagram {
+    height: 30px;
+    width: 30px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.website_ul li{
+    display: inline;
+    padding: 10px 20px;
+    color: #254441ff;
+    float: left;
+    padding-top: 45px;
+    padding-left: 40px;
+    transition: all 0.1s ease 0s;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: right;
+}
+
+.website_ul li a:hover{
+    text-decoration: none;
+    color: #5171A5;
+}
+
+.website_ul li a:focus {
+    text-decoration: none;
+    color: red;
+}
+
+.website_ul li a:active {
+    text-decoration: none;
+    color: red;
+}
